@@ -3,6 +3,8 @@
 A WiFi enabled PowerMeter for AC Voltage, Current and Power.
 Implementing a nice looking Web-Interface, a RESTful API, OpenHAB 1 & 2 Callbacks and a MQTT client.
 
+![](./docs/img/homepage.png)
+
 ## Precompiled Firmware
 Find the precompiled firmware in the [firmware](https://github.com/thorsten-l/ESP8266-PZEM004T/tree/master/firmware) directory.
 
