@@ -58,7 +58,7 @@ After a firmware reset the following values are set.
 |ESP8266 Mainboard|[WEMOS D1 mini lite](https://wiki.wemos.cc/products:d1:d1_mini_lite) |  |
 |OLED Display|[WEMOS OLED Shield](https://wiki.wemos.cc/products:d1_mini_shields:oled_shield) | D1 (SCL,GPIO5), D2 (SDA,GPIO4)|
 |AC Digital Multifunction Meter|[PZEM004T Module](https://de.aliexpress.com/item/AC-Digital-Multifunction-Meter-Watt-Power-Volt-Amp-Current-Test-Module-PZEM-004T-Factory-in-Stock/32732069106.html) | D5 (RX,GPIO14), D6 (TX,GPIO12) |
-|WiFi LED | LED + 180Ohm Resistor | D0 (GPIO16) |
+|WiFi LED | LED + 150&Omega; Resistor | D0 (GPIO16) |
 |Button | Touch button | D7 (GPIO13) |
 
 ## References
