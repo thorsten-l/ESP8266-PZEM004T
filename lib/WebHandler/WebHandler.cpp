@@ -156,6 +156,8 @@ void handleSetupPage( AsyncWebServerRequest *request )
   prOption( response, 2, "&gt;=2.0", appcfg.ohab_version == 2 );
   prSelectEnd( response );
 
+  response->print( "<p style='padding-left: 6em' class='pure-control-group'><em>To disable an item start value with a '-' sign.</em></p>" );
+
   prTextGroup( response, id++, "Item Voltage", "ohab_item_voltage", appcfg.ohab_item_voltage );
   prTextGroup( response, id++, "Item Current", "ohab_item_current", appcfg.ohab_item_current );
   prTextGroup( response, id++, "Item Power", "ohab_item_power", appcfg.ohab_item_power );

@@ -10,7 +10,7 @@
 // #define LOG1( format, x)
 
 #define APP_NAME "PowerMeter"
-#define APP_VERSION "1.0.0"
+#define APP_VERSION "1.0.1"
 #define APP_AUTHOR "Dr. Thorsten Ludewig <t.ludewig@gmail.com>"
 #define APP_CONFIG_FILE "/config.bin"
 
